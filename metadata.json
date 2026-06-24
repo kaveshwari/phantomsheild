@@ -1,0 +1,9 @@
+{
+  "name": "PhantomShield",
+  "description": "An adaptive, AI-vs-AI deepfake and generative fraud defense layer for Indian banks, enabling liveness checks, media verification, and DPDP compliance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

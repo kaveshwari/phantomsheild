@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom visual glow/pulsing indicators */
+@keyframes scanning {
+  0% { transform: translateY(-10%) }
+  50% { transform: translateY(110%) }
+  100% { transform: translateY(-10%) }
+}
+
+.scan-line {
+  animation: scanning 3s linear infinite;
+}
+
